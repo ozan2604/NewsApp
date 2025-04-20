@@ -1,0 +1,1472 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\webui\\areas\\admin\\views\\ailog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|solutionrelative:frontend\\webui\\areas\\admin\\views\\ailog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\ailogcommands\\createailogcommands\\createailogcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\ailogcommands\\createailogcommands\\createailogcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\webui\\areas\\admin\\controllers\\ailogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|solutionrelative:frontend\\webui\\areas\\admin\\controllers\\ailogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8613C8-30BF-4C3C-8435-205423F2D7F4}|Frontend\\DtoLayer\\DtoLayer.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\dtolayer\\dtos\\ailogdtos\\resultailogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8613C8-30BF-4C3C-8435-205423F2D7F4}|Frontend\\DtoLayer\\DtoLayer.csproj|solutionrelative:frontend\\dtolayer\\dtos\\ailogdtos\\resultailogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8613C8-30BF-4C3C-8435-205423F2D7F4}|Frontend\\DtoLayer\\DtoLayer.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\dtolayer\\dtos\\ailogdtos\\updateailogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8613C8-30BF-4C3C-8435-205423F2D7F4}|Frontend\\DtoLayer\\DtoLayer.csproj|solutionrelative:frontend\\dtolayer\\dtos\\ailogdtos\\updateailogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8613C8-30BF-4C3C-8435-205423F2D7F4}|Frontend\\DtoLayer\\DtoLayer.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\dtolayer\\dtos\\newsdtos\\createnewsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8613C8-30BF-4C3C-8435-205423F2D7F4}|Frontend\\DtoLayer\\DtoLayer.csproj|solutionrelative:frontend\\dtolayer\\dtos\\newsdtos\\createnewsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8613C8-30BF-4C3C-8435-205423F2D7F4}|Frontend\\DtoLayer\\DtoLayer.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\dtolayer\\dtos\\ailogdtos\\createailogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8613C8-30BF-4C3C-8435-205423F2D7F4}|Frontend\\DtoLayer\\DtoLayer.csproj|solutionrelative:frontend\\dtolayer\\dtos\\ailogdtos\\createailogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\webui\\areas\\admin\\views\\ailog\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|solutionrelative:frontend\\webui\\areas\\admin\\views\\ailog\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\webui\\areas\\admin\\views\\ailog\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|solutionrelative:frontend\\webui\\areas\\admin\\views\\ailog\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\webui\\areas\\admin\\views\\tag\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|solutionrelative:frontend\\webui\\areas\\admin\\views\\tag\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\webui\\areas\\admin\\views\\tag\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|solutionrelative:frontend\\webui\\areas\\admin\\views\\tag\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2294CF29-1C5D-4961-85F0-A57B46C47956}|Core\\Domain\\Domain.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\domain\\entities\\ailog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2294CF29-1C5D-4961-85F0-A57B46C47956}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\entities\\ailog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\webui\\areas\\admin\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|solutionrelative:frontend\\webui\\areas\\admin\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\webui\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|solutionrelative:frontend\\webui\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\webui\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|solutionrelative:frontend\\webui\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\webui\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|solutionrelative:frontend\\webui\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\categorycommands\\removecategory\\removecategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\categorycommands\\removecategory\\removecategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8613C8-30BF-4C3C-8435-205423F2D7F4}|Frontend\\DtoLayer\\DtoLayer.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\dtolayer\\dtos\\categorydtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8613C8-30BF-4C3C-8435-205423F2D7F4}|Frontend\\DtoLayer\\DtoLayer.csproj|solutionrelative:frontend\\dtolayer\\dtos\\categorydtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D37932-8D05-4FE0-B16B-B3A38901B0C4}|Presentation\\WebAPI\\WebAPI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\presentation\\webapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D37932-8D05-4FE0-B16B-B3A38901B0C4}|Presentation\\WebAPI\\WebAPI.csproj|solutionrelative:presentation\\webapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|solutionrelative:frontend\\webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\webui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|solutionrelative:frontend\\webui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D37932-8D05-4FE0-B16B-B3A38901B0C4}|Presentation\\WebAPI\\WebAPI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\presentation\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D37932-8D05-4FE0-B16B-B3A38901B0C4}|Presentation\\WebAPI\\WebAPI.csproj|solutionrelative:presentation\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\webui\\areas\\admin\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|solutionrelative:frontend\\webui\\areas\\admin\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B85B9B4-A146-440F-A3BA-88063F74534C}|Infrastructure\\Persistence\\Persistence.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\infrastructure\\persistence\\repositories\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B85B9B4-A146-440F-A3BA-88063F74534C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\repositories\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\webui\\areas\\admin\\views\\news\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|solutionrelative:frontend\\webui\\areas\\admin\\views\\news\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\webui\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|solutionrelative:frontend\\webui\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D37932-8D05-4FE0-B16B-B3A38901B0C4}|Presentation\\WebAPI\\WebAPI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\presentation\\webapi\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D37932-8D05-4FE0-B16B-B3A38901B0C4}|Presentation\\WebAPI\\WebAPI.csproj|solutionrelative:presentation\\webapi\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D37932-8D05-4FE0-B16B-B3A38901B0C4}|Presentation\\WebAPI\\WebAPI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\presentation\\webapi\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D37932-8D05-4FE0-B16B-B3A38901B0C4}|Presentation\\WebAPI\\WebAPI.csproj|solutionrelative:presentation\\webapi\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\categorycommands\\removecategory\\removecategorycommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\categorycommands\\removecategory\\removecategorycommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\webui\\areas\\admin\\views\\news\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|solutionrelative:frontend\\webui\\areas\\admin\\views\\news\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\webui\\areas\\admin\\views\\tag\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53E816F7-7B10-4083-A697-E34CB7127959}|Frontend\\WebUI\\WebUI.csproj|solutionrelative:frontend\\webui\\areas\\admin\\views\\tag\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8613C8-30BF-4C3C-8435-205423F2D7F4}|Frontend\\DtoLayer\\DtoLayer.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\dtolayer\\dtos\\categorydtos\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8613C8-30BF-4C3C-8435-205423F2D7F4}|Frontend\\DtoLayer\\DtoLayer.csproj|solutionrelative:frontend\\dtolayer\\dtos\\categorydtos\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8613C8-30BF-4C3C-8435-205423F2D7F4}|Frontend\\DtoLayer\\DtoLayer.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\dtolayer\\dtos\\categorydtos\\resultcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8613C8-30BF-4C3C-8435-205423F2D7F4}|Frontend\\DtoLayer\\DtoLayer.csproj|solutionrelative:frontend\\dtolayer\\dtos\\categorydtos\\resultcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8613C8-30BF-4C3C-8435-205423F2D7F4}|Frontend\\DtoLayer\\DtoLayer.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\frontend\\dtolayer\\dtos\\newsdtos\\resultnewsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8613C8-30BF-4C3C-8435-205423F2D7F4}|Frontend\\DtoLayer\\DtoLayer.csproj|solutionrelative:frontend\\dtolayer\\dtos\\newsdtos\\resultnewsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2294CF29-1C5D-4961-85F0-A57B46C47956}|Core\\Domain\\Domain.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\domain\\entities\\newstag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2294CF29-1C5D-4961-85F0-A57B46C47956}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\entities\\newstag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D37932-8D05-4FE0-B16B-B3A38901B0C4}|Presentation\\WebAPI\\WebAPI.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\presentation\\webapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D37932-8D05-4FE0-B16B-B3A38901B0C4}|Presentation\\WebAPI\\WebAPI.csproj|solutionrelative:presentation\\webapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\categorycommands\\updatecategory\\updatecategorycommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\categorycommands\\updatecategory\\updatecategorycommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\categorycommands\\createcategory\\createcategorycommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\categorycommands\\createcategory\\createcategorycommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B85B9B4-A146-440F-A3BA-88063F74534C}|Infrastructure\\Persistence\\Persistence.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\infrastructure\\persistence\\repositories\\appuserrepository\\appuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B85B9B4-A146-440F-A3BA-88063F74534C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\repositories\\appuserrepository\\appuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\appusercommands\\createappuser\\createappusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\appusercommands\\createappuser\\createappusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\appuserqueries\\getcheckappuserqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\appuserqueries\\getcheckappuserqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\repositories\\appuserrepository\\iappuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\repositories\\appuserrepository\\iappuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\repositories\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\repositories\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\appuserqueries\\getcheckappuserqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\appuserqueries\\getcheckappuserqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\appuserqueries\\getcheckappuserqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\appuserqueries\\getcheckappuserqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\appusercommands\\createappuser\\createappusercommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\appusercommands\\createappuser\\createappusercommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\appusercommands\\createappuser\\createappusercommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\appusercommands\\createappuser\\createappusercommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\repositories\\categoryrepository\\ireadcateagoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\repositories\\categoryrepository\\ireadcateagoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\repositories\\categoryrepository\\iwritecategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\repositories\\categoryrepository\\iwritecategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B85B9B4-A146-440F-A3BA-88063F74534C}|Infrastructure\\Persistence\\Persistence.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\infrastructure\\persistence\\repositories\\categoryrepository\\categoryreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B85B9B4-A146-440F-A3BA-88063F74534C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\repositories\\categoryrepository\\categoryreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B85B9B4-A146-440F-A3BA-88063F74534C}|Infrastructure\\Persistence\\Persistence.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\infrastructure\\persistence\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B85B9B4-A146-440F-A3BA-88063F74534C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B85B9B4-A146-440F-A3BA-88063F74534C}|Infrastructure\\Persistence\\Persistence.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\infrastructure\\persistence\\repositories\\categoryrepository\\categorywriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B85B9B4-A146-440F-A3BA-88063F74534C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\repositories\\categoryrepository\\categorywriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\tools\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\tools\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B85B9B4-A146-440F-A3BA-88063F74534C}|Infrastructure\\Persistence\\Persistence.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\infrastructure\\persistence\\repositories\\tagrepository\\readtagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B85B9B4-A146-440F-A3BA-88063F74534C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\repositories\\tagrepository\\readtagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\tools\\jwttokendefault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\tools\\jwttokendefault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\dtos\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\dtos\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\tagcommands\\createtag\\createtagcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\tagcommands\\createtag\\createtagcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\tagqueries\\getbyidtag\\gettagbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\tagqueries\\getbyidtag\\gettagbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\tagqueries\\getbyidtag\\gettagbyidqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\tagqueries\\getbyidtag\\gettagbyidqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\tagqueries\\getbyidtag\\gettagbyidqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\tagqueries\\getbyidtag\\gettagbyidqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\tagqueries\\getalltag\\getalltagqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\tagqueries\\getalltag\\getalltagqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\tagqueries\\getalltag\\getalltagqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\tagqueries\\getalltag\\getalltagqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\tagqueries\\getalltag\\getalltagqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\tagqueries\\getalltag\\getalltagqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\tagcommands\\removetag\\removetagcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\tagcommands\\removetag\\removetagcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\tagcommands\\updatetag\\updatetagcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\tagcommands\\updatetag\\updatetagcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\tagcommands\\updatetag\\updatetagcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\tagcommands\\updatetag\\updatetagcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\tagcommands\\updatetag\\updatetagcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\tagcommands\\updatetag\\updatetagcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\tagcommands\\createtag\\createtagcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\tagcommands\\createtag\\createtagcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B85B9B4-A146-440F-A3BA-88063F74534C}|Infrastructure\\Persistence\\Persistence.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\infrastructure\\persistence\\repositories\\tagrepository\\writetagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B85B9B4-A146-440F-A3BA-88063F74534C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\repositories\\tagrepository\\writetagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\repositories\\tagrepository\\ireadtagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\repositories\\tagrepository\\ireadtagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\repositories\\newsrepository\\iwritenewsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\repositories\\newsrepository\\iwritenewsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\repositories\\newsrepository\\ireadnewsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\repositories\\newsrepository\\ireadnewsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\tagcommands\\createtag\\createtagcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\tagcommands\\createtag\\createtagcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\categoryqueries\\getallcategory\\getallcategoryqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\categoryqueries\\getallcategory\\getallcategoryqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\categoryqueries\\getallcategory\\getallcategoryqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\categoryqueries\\getallcategory\\getallcategoryqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\categorycommands\\removecategory\\removecategorycommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\categorycommands\\removecategory\\removecategorycommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\categoryqueries\\getbyidcategory\\getcategorybyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\categoryqueries\\getbyidcategory\\getcategorybyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\categoryqueries\\getbyidcategory\\getcategorybyidqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\categoryqueries\\getbyidcategory\\getcategorybyidqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\newsqueries\\getbyidnews\\getbyidnewsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\newsqueries\\getbyidnews\\getbyidnewsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\newsqueries\\getbyidnews\\getbyidnewsqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\newsqueries\\getbyidnews\\getbyidnewsqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\categorycommands\\updatecategory\\updatecategorycommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\categorycommands\\updatecategory\\updatecategorycommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\categoryqueries\\getbyidcategory\\getcategorybyidqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\categoryqueries\\getbyidcategory\\getcategorybyidqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\categoryqueries\\getallcategory\\getallcategoryqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\categoryqueries\\getallcategory\\getallcategoryqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B85B9B4-A146-440F-A3BA-88063F74534C}|Infrastructure\\Persistence\\Persistence.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\infrastructure\\persistence\\repositories\\newsrepository\\writenewsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B85B9B4-A146-440F-A3BA-88063F74534C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\repositories\\newsrepository\\writenewsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B85B9B4-A146-440F-A3BA-88063F74534C}|Infrastructure\\Persistence\\Persistence.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\infrastructure\\persistence\\repositories\\newsrepository\\readnewsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B85B9B4-A146-440F-A3BA-88063F74534C}|Infrastructure\\Persistence\\Persistence.csproj|solutionrelative:infrastructure\\persistence\\repositories\\newsrepository\\readnewsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\newsqueries\\getbyidnews\\getbyidnewsqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\newsqueries\\getbyidnews\\getbyidnewsqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\newscommands\\removenews\\removenewscommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\newscommands\\removenews\\removenewscommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\newscommands\\removenews\\removenewscommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\newscommands\\removenews\\removenewscommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|c:\\users\\ozan\\desktop\\aspnetprojects\\newsapp\\core\\application\\features\\mediatr\\newscommands\\removenews\\removenewscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D21A0DC-212A-4068-ABEE-5DEA3DA450F0}|Core\\Application\\Application.csproj|solutionrelative:core\\application\\features\\mediatr\\newscommands\\removenews\\removenewscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateAilogCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\AiLogCommands\\CreateAiLogCommands\\CreateAilogCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\AiLogCommands\\CreateAiLogCommands\\CreateAilogCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\AiLogCommands\\CreateAiLogCommands\\CreateAilogCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\AiLogCommands\\CreateAiLogCommands\\CreateAilogCommandHandler.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwBwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T21:30:24.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateNewsDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\DtoLayer\\Dtos\\NewsDtos\\CreateNewsDto.cs",
+              "RelativeDocumentMoniker": "Frontend\\DtoLayer\\Dtos\\NewsDtos\\CreateNewsDto.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\DtoLayer\\Dtos\\NewsDtos\\CreateNewsDto.cs",
+              "RelativeToolTip": "Frontend\\DtoLayer\\Dtos\\NewsDtos\\CreateNewsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T21:29:06.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\AiLog\\Create.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\WebUI\\Areas\\Admin\\Views\\AiLog\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\AiLog\\Create.cshtml",
+              "RelativeToolTip": "Frontend\\WebUI\\Areas\\Admin\\Views\\AiLog\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T21:00:58.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\AiLog\\Index.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\WebUI\\Areas\\Admin\\Views\\AiLog\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\AiLog\\Index.cshtml",
+              "RelativeToolTip": "Frontend\\WebUI\\Areas\\Admin\\Views\\AiLog\\Index.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T20:51:35.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateAiLogDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\DtoLayer\\Dtos\\AiLogDtos\\UpdateAiLogDto.cs",
+              "RelativeDocumentMoniker": "Frontend\\DtoLayer\\Dtos\\AiLogDtos\\UpdateAiLogDto.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\DtoLayer\\Dtos\\AiLogDtos\\UpdateAiLogDto.cs",
+              "RelativeToolTip": "Frontend\\DtoLayer\\Dtos\\AiLogDtos\\UpdateAiLogDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T20:42:15.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResultAiLogDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\DtoLayer\\Dtos\\AiLogDtos\\ResultAiLogDto.cs",
+              "RelativeDocumentMoniker": "Frontend\\DtoLayer\\Dtos\\AiLogDtos\\ResultAiLogDto.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\DtoLayer\\Dtos\\AiLogDtos\\ResultAiLogDto.cs",
+              "RelativeToolTip": "Frontend\\DtoLayer\\Dtos\\AiLogDtos\\ResultAiLogDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T20:41:37.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AiLogController.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Controllers\\AiLogController.cs",
+              "RelativeDocumentMoniker": "Frontend\\WebUI\\Areas\\Admin\\Controllers\\AiLogController.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Controllers\\AiLogController.cs",
+              "RelativeToolTip": "Frontend\\WebUI\\Areas\\Admin\\Controllers\\AiLogController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T20:38:21.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\Tag\\Create.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\WebUI\\Areas\\Admin\\Views\\Tag\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\Tag\\Create.cshtml",
+              "RelativeToolTip": "Frontend\\WebUI\\Areas\\Admin\\Views\\Tag\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T19:29:58.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\Tag\\Index.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\WebUI\\Areas\\Admin\\Views\\Tag\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\Tag\\Index.cshtml",
+              "RelativeToolTip": "Frontend\\WebUI\\Areas\\Admin\\Views\\Tag\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T22:39:21.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateAiLogDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\DtoLayer\\Dtos\\AiLogDtos\\CreateAiLogDto.cs",
+              "RelativeDocumentMoniker": "Frontend\\DtoLayer\\Dtos\\AiLogDtos\\CreateAiLogDto.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\DtoLayer\\Dtos\\AiLogDtos\\CreateAiLogDto.cs",
+              "RelativeToolTip": "Frontend\\DtoLayer\\Dtos\\AiLogDtos\\CreateAiLogDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T20:42:05.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\AiLog\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\WebUI\\Areas\\Admin\\Views\\AiLog\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\AiLog\\Edit.cshtml",
+              "RelativeToolTip": "Frontend\\WebUI\\Areas\\Admin\\Views\\AiLog\\Edit.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwCMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T21:01:49.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AiLog.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Domain\\Entities\\AiLog.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Entities\\AiLog.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Domain\\Entities\\AiLog.cs",
+              "RelativeToolTip": "Core\\Domain\\Entities\\AiLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T20:44:47.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\WebUI\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "Frontend\\WebUI\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T19:29:45.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RemoveCategoryCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryCommands\\RemoveCategory\\RemoveCategoryCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\CategoryCommands\\RemoveCategory\\RemoveCategoryCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryCommands\\RemoveCategory\\RemoveCategoryCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\CategoryCommands\\RemoveCategory\\RemoveCategoryCommandHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:48:01.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Infrastructure\\Persistence\\Repositories\\ReadRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Repositories\\ReadRepository.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Infrastructure\\Persistence\\Repositories\\ReadRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Repositories\\ReadRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:43:32.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Presentation\\WebAPI\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Presentation\\WebAPI\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Presentation\\WebAPI\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Presentation\\WebAPI\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAwwD4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T19:38:10.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Frontend\\WebUI\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Frontend\\WebUI\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAUwGAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T19:12:16.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\News\\Index.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\WebUI\\Areas\\Admin\\Views\\News\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\News\\Index.cshtml",
+              "RelativeToolTip": "Frontend\\WebUI\\Areas\\Admin\\Views\\News\\Index.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwB4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T22:31:53.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\WebUI\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Frontend\\WebUI\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T19:24:54.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TagController.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Controllers\\TagController.cs",
+              "RelativeDocumentMoniker": "Frontend\\WebUI\\Areas\\Admin\\Controllers\\TagController.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Controllers\\TagController.cs",
+              "RelativeToolTip": "Frontend\\WebUI\\Areas\\Admin\\Controllers\\TagController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowHkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T22:37:11.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Presentation\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Presentation\\WebAPI\\Program.cs",
+              "RelativeToolTip": "Presentation\\WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T19:53:24.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\DtoLayer\\Dtos\\CategoryDtos\\CreateCategoryDto.cs",
+              "RelativeDocumentMoniker": "Frontend\\DtoLayer\\Dtos\\CategoryDtos\\CreateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\DtoLayer\\Dtos\\CategoryDtos\\CreateCategoryDto.cs",
+              "RelativeToolTip": "Frontend\\DtoLayer\\Dtos\\CategoryDtos\\CreateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T19:19:48.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\appsettings.json",
+              "RelativeDocumentMoniker": "Frontend\\WebUI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\appsettings.json",
+              "RelativeToolTip": "Frontend\\WebUI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-15T19:53:35.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "Frontend\\WebUI\\Program.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Program.cs",
+              "RelativeToolTip": "Frontend\\WebUI\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T19:53:36.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\News\\Create.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\WebUI\\Areas\\Admin\\Views\\News\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\News\\Create.cshtml",
+              "RelativeToolTip": "Frontend\\WebUI\\Areas\\Admin\\Views\\News\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T22:32:08.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\WebUI\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "Frontend\\WebUI\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T19:32:43.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "NewsController.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Presentation\\WebAPI\\Controllers\\NewsController.cs",
+              "RelativeDocumentMoniker": "Presentation\\WebAPI\\Controllers\\NewsController.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Presentation\\WebAPI\\Controllers\\NewsController.cs",
+              "RelativeToolTip": "Presentation\\WebAPI\\Controllers\\NewsController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T19:15:34.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TagsController.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Presentation\\WebAPI\\Controllers\\TagsController.cs",
+              "RelativeDocumentMoniker": "Presentation\\WebAPI\\Controllers\\TagsController.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Presentation\\WebAPI\\Controllers\\TagsController.cs",
+              "RelativeToolTip": "Presentation\\WebAPI\\Controllers\\TagsController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T22:41:40.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RemoveCategoryCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryCommands\\RemoveCategory\\RemoveCategoryCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\CategoryCommands\\RemoveCategory\\RemoveCategoryCommandRequest.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryCommands\\RemoveCategory\\RemoveCategoryCommandRequest.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\CategoryCommands\\RemoveCategory\\RemoveCategoryCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:47:16.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UpdateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\DtoLayer\\Dtos\\CategoryDtos\\UpdateCategoryDto.cs",
+              "RelativeDocumentMoniker": "Frontend\\DtoLayer\\Dtos\\CategoryDtos\\UpdateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\DtoLayer\\Dtos\\CategoryDtos\\UpdateCategoryDto.cs",
+              "RelativeToolTip": "Frontend\\DtoLayer\\Dtos\\CategoryDtos\\UpdateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T19:19:37.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ResultCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\DtoLayer\\Dtos\\CategoryDtos\\ResultCategoryDto.cs",
+              "RelativeDocumentMoniker": "Frontend\\DtoLayer\\Dtos\\CategoryDtos\\ResultCategoryDto.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\DtoLayer\\Dtos\\CategoryDtos\\ResultCategoryDto.cs",
+              "RelativeToolTip": "Frontend\\DtoLayer\\Dtos\\CategoryDtos\\ResultCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T19:20:16.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\Tag\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\WebUI\\Areas\\Admin\\Views\\Tag\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\Tag\\Edit.cshtml",
+              "RelativeToolTip": "Frontend\\WebUI\\Areas\\Admin\\Views\\Tag\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T19:32:48.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\News\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\WebUI\\Areas\\Admin\\Views\\News\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\Areas\\Admin\\Views\\News\\Edit.cshtml",
+              "RelativeToolTip": "Frontend\\WebUI\\Areas\\Admin\\Views\\News\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T22:28:41.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ResultNewsDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\DtoLayer\\Dtos\\NewsDtos\\ResultNewsDto.cs",
+              "RelativeDocumentMoniker": "Frontend\\DtoLayer\\Dtos\\NewsDtos\\ResultNewsDto.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\DtoLayer\\Dtos\\NewsDtos\\ResultNewsDto.cs",
+              "RelativeToolTip": "Frontend\\DtoLayer\\Dtos\\NewsDtos\\ResultNewsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T19:22:19.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "NewsTag.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Domain\\Entities\\NewsTag.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Entities\\NewsTag.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Domain\\Entities\\NewsTag.cs",
+              "RelativeToolTip": "Core\\Domain\\Entities\\NewsTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T17:14:40.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UpdateCategoryCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryCommands\\UpdateCategory\\UpdateCategoryCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\CategoryCommands\\UpdateCategory\\UpdateCategoryCommandRequest.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryCommands\\UpdateCategory\\UpdateCategoryCommandRequest.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\CategoryCommands\\UpdateCategory\\UpdateCategoryCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:31:14.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AppUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Infrastructure\\Persistence\\Repositories\\AppUserRepository\\AppUserRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Repositories\\AppUserRepository\\AppUserRepository.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Infrastructure\\Persistence\\Repositories\\AppUserRepository\\AppUserRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Repositories\\AppUserRepository\\AppUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T12:15:34.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Presentation\\WebAPI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Presentation\\WebAPI\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Presentation\\WebAPI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Presentation\\WebAPI\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAWwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T13:43:37.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CreateCategoryCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryCommands\\CreateCategory\\CreateCategoryCommandResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\CategoryCommands\\CreateCategory\\CreateCategoryCommandResponse.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryCommands\\CreateCategory\\CreateCategoryCommandResponse.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\CategoryCommands\\CreateCategory\\CreateCategoryCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:28:25.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CreateAppUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\AppUserCommands\\CreateAppUser\\CreateAppUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\AppUserCommands\\CreateAppUser\\CreateAppUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\AppUserCommands\\CreateAppUser\\CreateAppUserCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\AppUserCommands\\CreateAppUser\\CreateAppUserCommandHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:54:58.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GetCheckAppUserQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\AppUserQueries\\GetCheckAppUserQueryResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\AppUserQueries\\GetCheckAppUserQueryResponse.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\AppUserQueries\\GetCheckAppUserQueryResponse.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\AppUserQueries\\GetCheckAppUserQueryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T12:08:47.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Repositories\\IReadRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Repositories\\IReadRepository.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Repositories\\IReadRepository.cs",
+              "RelativeToolTip": "Core\\Application\\Repositories\\IReadRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:44:58.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IAppUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Repositories\\AppUserRepository\\IAppUserRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Repositories\\AppUserRepository\\IAppUserRepository.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Repositories\\AppUserRepository\\IAppUserRepository.cs",
+              "RelativeToolTip": "Core\\Application\\Repositories\\AppUserRepository\\IAppUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T12:13:29.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "GetCheckAppUserQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\AppUserQueries\\GetCheckAppUserQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\AppUserQueries\\GetCheckAppUserQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\AppUserQueries\\GetCheckAppUserQueryHandler.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\AppUserQueries\\GetCheckAppUserQueryHandler.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T12:10:05.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "GetCheckAppUserQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\AppUserQueries\\GetCheckAppUserQueryRequest.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\AppUserQueries\\GetCheckAppUserQueryRequest.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\AppUserQueries\\GetCheckAppUserQueryRequest.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\AppUserQueries\\GetCheckAppUserQueryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T12:08:30.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CreateAppUserCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\AppUserCommands\\CreateAppUser\\CreateAppUserCommandResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\AppUserCommands\\CreateAppUser\\CreateAppUserCommandResponse.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\AppUserCommands\\CreateAppUser\\CreateAppUserCommandResponse.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\AppUserCommands\\CreateAppUser\\CreateAppUserCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:54:07.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CreateAppUserCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\AppUserCommands\\CreateAppUser\\CreateAppUserCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\AppUserCommands\\CreateAppUser\\CreateAppUserCommandRequest.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\AppUserCommands\\CreateAppUser\\CreateAppUserCommandRequest.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\AppUserCommands\\CreateAppUser\\CreateAppUserCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:54:50.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CategoryReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Infrastructure\\Persistence\\Repositories\\CategoryRepository\\CategoryReadRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Repositories\\CategoryRepository\\CategoryReadRepository.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Infrastructure\\Persistence\\Repositories\\CategoryRepository\\CategoryReadRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Repositories\\CategoryRepository\\CategoryReadRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:16:37.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IReadCateagoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Repositories\\CategoryRepository\\IReadCateagoryRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Repositories\\CategoryRepository\\IReadCateagoryRepository.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Repositories\\CategoryRepository\\IReadCateagoryRepository.cs",
+              "RelativeToolTip": "Core\\Application\\Repositories\\CategoryRepository\\IReadCateagoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:14:42.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "Core\\Application\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T12:15:58.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IWriteCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Repositories\\CategoryRepository\\IWriteCategoryRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Repositories\\CategoryRepository\\IWriteCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Repositories\\CategoryRepository\\IWriteCategoryRepository.cs",
+              "RelativeToolTip": "Core\\Application\\Repositories\\CategoryRepository\\IWriteCategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:15:03.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CategoryWriteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Infrastructure\\Persistence\\Repositories\\CategoryRepository\\CategoryWriteRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Repositories\\CategoryRepository\\CategoryWriteRepository.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Infrastructure\\Persistence\\Repositories\\CategoryRepository\\CategoryWriteRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Repositories\\CategoryRepository\\CategoryWriteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:18:28.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Infrastructure\\Persistence\\Configuration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Configuration.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Infrastructure\\Persistence\\Configuration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T13:30:43.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "jwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Tools\\jwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Tools\\jwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Tools\\jwtTokenGenerator.cs",
+              "RelativeToolTip": "Core\\Application\\Tools\\jwtTokenGenerator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T12:05:35.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ReadTagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Infrastructure\\Persistence\\Repositories\\TagRepository\\ReadTagRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Repositories\\TagRepository\\ReadTagRepository.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Infrastructure\\Persistence\\Repositories\\TagRepository\\ReadTagRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Repositories\\TagRepository\\ReadTagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:20:28.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "JwtTokenDefault.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Tools\\JwtTokenDefault.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Tools\\JwtTokenDefault.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Tools\\JwtTokenDefault.cs",
+              "RelativeToolTip": "Core\\Application\\Tools\\JwtTokenDefault.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T12:05:24.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "TokenResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Dtos\\TokenResponseDto.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Dtos\\TokenResponseDto.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Dtos\\TokenResponseDto.cs",
+              "RelativeToolTip": "Core\\Application\\Dtos\\TokenResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:51:26.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "GetTagByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagQueries\\GetByIdTag\\GetTagByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\TagQueries\\GetByIdTag\\GetTagByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagQueries\\GetByIdTag\\GetTagByIdQueryHandler.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\TagQueries\\GetByIdTag\\GetTagByIdQueryHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAlwB0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:40:00.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "GetTagByIdQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagQueries\\GetByIdTag\\GetTagByIdQueryResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\TagQueries\\GetByIdTag\\GetTagByIdQueryResponse.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagQueries\\GetByIdTag\\GetTagByIdQueryResponse.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\TagQueries\\GetByIdTag\\GetTagByIdQueryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:39:53.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "GetTagByIdQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagQueries\\GetByIdTag\\GetTagByIdQueryRequest.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\TagQueries\\GetByIdTag\\GetTagByIdQueryRequest.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagQueries\\GetByIdTag\\GetTagByIdQueryRequest.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\TagQueries\\GetByIdTag\\GetTagByIdQueryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:39:45.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "GetAllTagQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagQueries\\GetAllTag\\GetAllTagQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\TagQueries\\GetAllTag\\GetAllTagQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagQueries\\GetAllTag\\GetAllTagQueryHandler.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\TagQueries\\GetAllTag\\GetAllTagQueryHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:37:24.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "GetAllTagQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagQueries\\GetAllTag\\GetAllTagQueryResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\TagQueries\\GetAllTag\\GetAllTagQueryResponse.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagQueries\\GetAllTag\\GetAllTagQueryResponse.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\TagQueries\\GetAllTag\\GetAllTagQueryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:37:17.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "CreateTagCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagCommands\\CreateTag\\CreateTagCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\TagCommands\\CreateTag\\CreateTagCommandRequest.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagCommands\\CreateTag\\CreateTagCommandRequest.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\TagCommands\\CreateTag\\CreateTagCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:15:37.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "GetAllTagQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagQueries\\GetAllTag\\GetAllTagQueryRequest.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\TagQueries\\GetAllTag\\GetAllTagQueryRequest.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagQueries\\GetAllTag\\GetAllTagQueryRequest.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\TagQueries\\GetAllTag\\GetAllTagQueryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:37:09.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "RemoveTagCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagCommands\\RemoveTag\\RemoveTagCommandResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\TagCommands\\RemoveTag\\RemoveTagCommandResponse.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagCommands\\RemoveTag\\RemoveTagCommandResponse.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\TagCommands\\RemoveTag\\RemoveTagCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:31:48.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "UpdateTagCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagCommands\\UpdateTag\\UpdateTagCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\TagCommands\\UpdateTag\\UpdateTagCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagCommands\\UpdateTag\\UpdateTagCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\TagCommands\\UpdateTag\\UpdateTagCommandHandler.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:25:47.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "UpdateTagCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagCommands\\UpdateTag\\UpdateTagCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\TagCommands\\UpdateTag\\UpdateTagCommandRequest.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagCommands\\UpdateTag\\UpdateTagCommandRequest.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\TagCommands\\UpdateTag\\UpdateTagCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:25:34.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "UpdateTagCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagCommands\\UpdateTag\\UpdateTagCommandResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\TagCommands\\UpdateTag\\UpdateTagCommandResponse.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagCommands\\UpdateTag\\UpdateTagCommandResponse.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\TagCommands\\UpdateTag\\UpdateTagCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:25:20.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "WriteTagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Infrastructure\\Persistence\\Repositories\\TagRepository\\WriteTagRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Repositories\\TagRepository\\WriteTagRepository.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Infrastructure\\Persistence\\Repositories\\TagRepository\\WriteTagRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Repositories\\TagRepository\\WriteTagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:20:37.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "IReadTagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Repositories\\TagRepository\\IReadTagRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Repositories\\TagRepository\\IReadTagRepository.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Repositories\\TagRepository\\IReadTagRepository.cs",
+              "RelativeToolTip": "Core\\Application\\Repositories\\TagRepository\\IReadTagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:18:27.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "CreateTagCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagCommands\\CreateTag\\CreateTagCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\TagCommands\\CreateTag\\CreateTagCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagCommands\\CreateTag\\CreateTagCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\TagCommands\\CreateTag\\CreateTagCommandHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwB8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:15:44.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "IWriteNewsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Repositories\\NewsRepository\\IWriteNewsRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Repositories\\NewsRepository\\IWriteNewsRepository.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Repositories\\NewsRepository\\IWriteNewsRepository.cs",
+              "RelativeToolTip": "Core\\Application\\Repositories\\NewsRepository\\IWriteNewsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:18:47.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "IReadNewsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Repositories\\NewsRepository\\IReadNewsRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Repositories\\NewsRepository\\IReadNewsRepository.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Repositories\\NewsRepository\\IReadNewsRepository.cs",
+              "RelativeToolTip": "Core\\Application\\Repositories\\NewsRepository\\IReadNewsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T22:02:27.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "CreateTagCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagCommands\\CreateTag\\CreateTagCommandResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\TagCommands\\CreateTag\\CreateTagCommandResponse.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\TagCommands\\CreateTag\\CreateTagCommandResponse.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\TagCommands\\CreateTag\\CreateTagCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:15:26.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "RemoveCategoryCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryCommands\\RemoveCategory\\RemoveCategoryCommandResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\CategoryCommands\\RemoveCategory\\RemoveCategoryCommandResponse.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryCommands\\RemoveCategory\\RemoveCategoryCommandResponse.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\CategoryCommands\\RemoveCategory\\RemoveCategoryCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:47:36.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "GetAllCategoryQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetAllCategory\\GetAllCategoryQueryRequest.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetAllCategory\\GetAllCategoryQueryRequest.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetAllCategory\\GetAllCategoryQueryRequest.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetAllCategory\\GetAllCategoryQueryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:12:53.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "GetAllCategoryQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetAllCategory\\GetAllCategoryQueryResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetAllCategory\\GetAllCategoryQueryResponse.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetAllCategory\\GetAllCategoryQueryResponse.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetAllCategory\\GetAllCategoryQueryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:12:30.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "GetCategoryByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetByIdCategory\\GetCategoryByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetByIdCategory\\GetCategoryByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetByIdCategory\\GetCategoryByIdQueryHandler.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetByIdCategory\\GetCategoryByIdQueryHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:24:02.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "GetByIdNewsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\NewsQueries\\GetByIdNews\\GetByIdNewsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\NewsQueries\\GetByIdNews\\GetByIdNewsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\NewsQueries\\GetByIdNews\\GetByIdNewsQueryHandler.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\NewsQueries\\GetByIdNews\\GetByIdNewsQueryHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T09:34:48.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "GetCategoryByIdQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetByIdCategory\\GetCategoryByIdQueryRequest.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetByIdCategory\\GetCategoryByIdQueryRequest.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetByIdCategory\\GetCategoryByIdQueryRequest.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetByIdCategory\\GetCategoryByIdQueryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:23:54.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "GetByIdNewsQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\NewsQueries\\GetByIdNews\\GetByIdNewsQueryRequest.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\NewsQueries\\GetByIdNews\\GetByIdNewsQueryRequest.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\NewsQueries\\GetByIdNews\\GetByIdNewsQueryRequest.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\NewsQueries\\GetByIdNews\\GetByIdNewsQueryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T09:32:45.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "UpdateCategoryCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryCommands\\UpdateCategory\\UpdateCategoryCommandResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\CategoryCommands\\UpdateCategory\\UpdateCategoryCommandResponse.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryCommands\\UpdateCategory\\UpdateCategoryCommandResponse.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\CategoryCommands\\UpdateCategory\\UpdateCategoryCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:31:21.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "GetCategoryByIdQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetByIdCategory\\GetCategoryByIdQueryResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetByIdCategory\\GetCategoryByIdQueryResponse.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetByIdCategory\\GetCategoryByIdQueryResponse.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetByIdCategory\\GetCategoryByIdQueryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:23:44.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "GetAllCategoryQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetAllCategory\\GetAllCategoryQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetAllCategory\\GetAllCategoryQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetAllCategory\\GetAllCategoryQueryHandler.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\CategoryQueries\\GetAllCategory\\GetAllCategoryQueryHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:13:41.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "WriteNewsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Infrastructure\\Persistence\\Repositories\\NewsRepository\\WriteNewsRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Repositories\\NewsRepository\\WriteNewsRepository.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Infrastructure\\Persistence\\Repositories\\NewsRepository\\WriteNewsRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Repositories\\NewsRepository\\WriteNewsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T22:04:35.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "ReadNewsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Infrastructure\\Persistence\\Repositories\\NewsRepository\\ReadNewsRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Repositories\\NewsRepository\\ReadNewsRepository.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Infrastructure\\Persistence\\Repositories\\NewsRepository\\ReadNewsRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Repositories\\NewsRepository\\ReadNewsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T22:04:22.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "GetByIdNewsQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\NewsQueries\\GetByIdNews\\GetByIdNewsQueryResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\NewsQueries\\GetByIdNews\\GetByIdNewsQueryResponse.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\NewsQueries\\GetByIdNews\\GetByIdNewsQueryResponse.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\NewsQueries\\GetByIdNews\\GetByIdNewsQueryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T09:31:52.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "RemoveNewsCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\NewsCommands\\RemoveNews\\RemoveNewsCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\NewsCommands\\RemoveNews\\RemoveNewsCommandRequest.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\NewsCommands\\RemoveNews\\RemoveNewsCommandRequest.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\NewsCommands\\RemoveNews\\RemoveNewsCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:45:02.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "RemoveNewsCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\NewsCommands\\RemoveNews\\RemoveNewsCommandResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\NewsCommands\\RemoveNews\\RemoveNewsCommandResponse.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\NewsCommands\\RemoveNews\\RemoveNewsCommandResponse.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\NewsCommands\\RemoveNews\\RemoveNewsCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:44:27.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "RemoveNewsCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\NewsCommands\\RemoveNews\\RemoveNewsCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Application\\Features\\Mediatr\\NewsCommands\\RemoveNews\\RemoveNewsCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Core\\Application\\Features\\Mediatr\\NewsCommands\\RemoveNews\\RemoveNewsCommandHandler.cs",
+              "RelativeToolTip": "Core\\Application\\Features\\Mediatr\\NewsCommands\\RemoveNews\\RemoveNewsCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:45:40.959Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

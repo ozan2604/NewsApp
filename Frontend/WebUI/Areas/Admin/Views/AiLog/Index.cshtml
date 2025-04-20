@@ -1,0 +1,42 @@
+﻿@model List<DtoLayer.Dtos.AiLogDtos.ResultAiLogDto>
+
+
+@{
+    ViewData["Title"] = "AI Log Listesi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>AI Log Kayıtları</h2>
+
+<a href="/Admin/Ailog/Create" class="btn btn-primary mb-3">Yeni Kayıt Ekle</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Prompt</th>
+            <th>Response</th>
+            <th>Model</th>
+            <th>Başarılı mı?</th>
+            <th>Hata Mesajı</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var log in Model)
+        {
+            <tr>
+                <td>@log.Prompt</td>
+                <td>@log.Response</td>
+                <td>@log.SourceModel</td>
+                <td>@(log.IsSuccessful ? "Evet" : "Hayır")</td>
+                <td>@log.ErrorMessage</td>
+                <td>
+                    <a href="/Admin/Ailog/Edit/@log.Id" class="btn btn-warning btn-sm">Düzenle</a>
+                    <form action="/Admin/Ailog/Delete/@log.Id" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-danger btn-sm">Sil</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

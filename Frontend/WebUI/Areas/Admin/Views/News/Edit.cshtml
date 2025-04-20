@@ -1,0 +1,47 @@
+﻿
+@model DtoLayer.Dtos.NewsDtos.UpdateNewsDto
+
+@{
+    ViewData["Title"] = "Haberi Güncelle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="container mt-4">
+    <h3 class="mb-4">Haberi Güncelle</h3>
+
+    <form action="/Admin/News/Edit/@Model.Id" method="post">
+        <input type="hidden" name="Id" value="@Model.Id" />
+
+        <div class="mb-3">
+            <label>Başlık</label>
+            <input name="Title" class="form-control" value="@Model.Title" />
+        </div>
+        <div class="mb-3">
+            <label>İçerik</label>
+            <textarea name="Content" class="form-control">@Model.Content</textarea>
+        </div>
+        <div class="mb-3">
+            <label>Yayın Tarihi</label>
+            <input name="PublishedAt" class="form-control" type="datetime-local" value="@Model.PublishedAt.ToString("yyyy-MM-ddTHH:mm")" />
+        </div>
+        <div class="mb-3">
+            <label>Görsel URL</label>
+            <input name="ImageUrl" class="form-control" value="@Model.ImageUrl" />
+        </div>
+        <div class="mb-3">
+            <label>AI Kaynağı</label>
+            <input name="AiSource" class="form-control" value="@Model.AiSource" />
+        </div>
+        <div class="form-check mb-3">
+            <input name="IsAIGenerated" class="form-check-input" type="checkbox" @(Model.IsAIGenerated ? "checked" : "") />
+            <label class="form-check-label">Yapay Zeka ile oluşturuldu</label>
+        </div>
+        <div class="mb-3">
+            <label>Yazar ID</label>
+            <input name="AuthorId" class="form-control" value="@Model.AuthorId" />
+        </div>
+
+        <button type="submit" class="btn btn-warning">Güncelle</button>
+        <a href="/Admin/News/Index" class="btn btn-secondary">İptal</a>
+    </form>
+</section>

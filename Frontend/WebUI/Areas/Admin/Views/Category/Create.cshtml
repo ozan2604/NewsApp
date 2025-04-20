@@ -1,0 +1,41 @@
+﻿@model DtoLayer.Dtos.CategoryDtos.CreateCategoryDto
+
+@{
+    ViewData["Title"] = "Yeni Kategori Ekle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="content container-fluid mt-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <h3 class="mb-4">Yeni Kategori Ekle</h3>
+
+            <form asp-area="Admin" asp-controller="Category" asp-action="Create" method="post">
+                <div class="form-group mb-3">
+                    <label for="Name">Kategori Adı</label>
+                    <input type="text" class="form-control" id="Name" name="Name" placeholder="Örn: Teknoloji" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="Name">Resim Yolu</label>
+                    <input type="text" class="form-control" id="Name" name="Name" placeholder="Örn: Teknoloji.jpg" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="ParentCategoryIdAsString">Parent kategori Id</label>
+                    <input type="text"
+                           class="form-control"
+                           id="ParentCategoryIdAsString"
+                           name="ParentCategoryIdAsString"
+                           placeholder="Örn: bee5c5ba-17e3-4711-d09e-08dd7abe55ac"
+                           required />
+                </div>
+
+                <button type="submit" class="btn btn-success">
+                    <i class="bi bi-check-circle"></i> Kategoriyi Kaydet
+                </button>
+                <a href="/Admin/Category/Index" class="btn btn-secondary">Geri Dön</a>
+            </form>
+        </div>
+    </div>
+</section>

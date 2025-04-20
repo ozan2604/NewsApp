@@ -1,0 +1,55 @@
+﻿
+@model List<DtoLayer.Dtos.NewsDtos.ResultNewsDto>
+
+@{
+    ViewData["Title"] = "Haber Listesi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int count = 0;
+}
+
+<section class="container mt-4">
+    <h3 class="mb-4">Haberler</h3>
+
+    <a href="/Admin/News/Create" class="btn btn-primary mb-3">
+        <i class="bi bi-plus-circle"></i> Yeni Haber Ekle
+    </a>
+
+    <table class="table table-bordered table-striped shadow">
+        <thead class="table-dark">
+            <tr>
+                <th>#</th>
+                <th>Başlık</th>
+                <th>Yayın Tarihi</th>
+                <th>Yazar</th>
+                <th>AI?</th>
+                <th>İşlemler</th>
+            </tr>
+        </thead> 
+        <tbody>
+            @foreach (var item in Model)
+            {
+                count++;
+                <tr>
+                    <td>@count</td>
+                    <td>@item.Title</td>
+                    <td>@item.PublishedAt.ToShortDateString()</td>
+                    <td>@item.AuthorName</td>
+                    <td>@(item.IsAIGenerated ? "AI" : "Manuel")</td>
+                    <td class="text-nowrap">
+                        <a href="/Admin/News/Edit/@item.Id" class="btn btn-warning btn-sm">Güncelle</a>
+                    
+
+                    
+                        <form action="/Admin/News/Delete/@item.Id"
+                              method="post"
+                              class="d-inline"
+                              onsubmit="return confirm('Silmek istediğinize emin misiniz?');">
+                            <button type="submit" class="btn btn-danger">Sil</button>
+                        </form>
+                    </td>
+                   
+                </tr>
+            }
+        </tbody>
+    </table>
+</section>

@@ -1,0 +1,1 @@
+abstract class’tan doðrudan nesne oluþturulamaz sadece miras alýnabilir genelde base ortak yapýlar için kullanýlýr

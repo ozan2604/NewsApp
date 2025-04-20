@@ -1,0 +1,45 @@
+﻿
+@model DtoLayer.Dtos.NewsDtos.CreateNewsDto
+
+@{
+    ViewData["Title"] = "Yeni Haber";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="container mt-4">
+    <h3 class="mb-4">Yeni Haber Ekle</h3>
+
+    <form action="/Admin/News/Create" method="post">
+        <div class="mb-3">
+            <label>Başlık</label>
+            <input name="Title" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label>İçerik</label>
+            <textarea name="Content" class="form-control"></textarea>
+        </div>
+        <div class="mb-3">
+            <label>Yayın Tarihi</label>
+            <input name="PublishedAt" class="form-control" type="datetime-local" />
+        </div>
+        <div class="mb-3">
+            <label>Görsel URL</label>
+            <input name="ImageUrl" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label>AI Kaynağı</label>
+            <input name="AiSource" class="form-control" />
+        </div>
+        <div class="form-check mb-3">
+            <input name="IsAIGenerated" class="form-check-input" type="checkbox" />
+            <label class="form-check-label">Yapay Zeka ile oluşturuldu</label>
+        </div>
+        <div class="mb-3">
+            <label>Yazar ID</label>
+            <input name="AuthorId" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-success">Kaydet</button>
+        <a href="/Admin/News/Index" class="btn btn-secondary">İptal</a>
+    </form>
+</section>

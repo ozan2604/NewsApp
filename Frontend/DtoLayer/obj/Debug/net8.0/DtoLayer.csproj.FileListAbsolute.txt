@@ -1,0 +1,16 @@
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\DtoLayer\bin\Debug\net8.0\DtoLayer.deps.json
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\DtoLayer\bin\Debug\net8.0\DtoLayer.dll
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\DtoLayer\bin\Debug\net8.0\DtoLayer.pdb
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\DtoLayer\bin\Debug\net8.0\Domain.dll
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\DtoLayer\bin\Debug\net8.0\Domain.pdb
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\DtoLayer\obj\Debug\net8.0\DtoLayer.csproj.AssemblyReference.cache
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\DtoLayer\obj\Debug\net8.0\DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\DtoLayer\obj\Debug\net8.0\DtoLayer.AssemblyInfoInputs.cache
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\DtoLayer\obj\Debug\net8.0\DtoLayer.AssemblyInfo.cs
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\DtoLayer\obj\Debug\net8.0\DtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\DtoLayer\obj\Debug\net8.0\DtoLayer.sourcelink.json
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\DtoLayer\obj\Debug\net8.0\DtoLayer.csproj.Up2Date
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\DtoLayer\obj\Debug\net8.0\DtoLayer.dll
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\DtoLayer\obj\Debug\net8.0\refint\DtoLayer.dll
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\DtoLayer\obj\Debug\net8.0\DtoLayer.pdb
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\DtoLayer\obj\Debug\net8.0\ref\DtoLayer.dll

@@ -1,0 +1,33 @@
+﻿@model DtoLayer.Dtos.CategoryDtos.UpdateCategoryDto
+
+@{
+    ViewData["Title"] = "Kategori Güncelle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="content container-fluid mt-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <h3 class="mb-4">Kategori Güncelle</h3>
+
+            <form asp-area="Admin" asp-controller="Category" asp-action="Edit" method="post">
+                <input type="hidden" name="Id" value="@Model.Id" />
+
+                <div class="form-group mb-3">
+                    <label for="Name">Kategori Adı</label>
+                    <input type="text" class="form-control" id="Name" name="Name" value="@Model.Name" required />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="Name">Resim Yolu</label>
+                    <input type="text" class="form-control" id="Image" name="Image" value="@Model.Image" required />
+                </div>
+
+                <button type="submit" class="btn btn-warning">
+                    <i class="bi bi-pencil-square"></i> Güncelle
+                </button>
+                <a href="/Admin/Category/Index" class="btn btn-secondary">Geri Dön</a>
+            </form>
+        </div>
+    </div>
+</section>
