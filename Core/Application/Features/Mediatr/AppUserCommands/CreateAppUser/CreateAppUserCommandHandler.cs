@@ -29,7 +29,10 @@ namespace Application.Features.Mediatr.AppUserCommands.CreateAppUser
                 Email = request.Email,
                 Name = request.Name,
                 Surname = request.Surname,
-                AppRoleId = RolesType.Member // default member olarak eklendi
+                AppRoleId = RolesType.Member, // default member olarak eklendi
+                CreatedTime = DateTime.UtcNow,
+                UpdatedTime = DateTime.UtcNow
+
             });
 
             await _appUserWriteRepository.SaveAsync();

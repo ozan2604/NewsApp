@@ -9,13 +9,14 @@ namespace DtoLayer.Dtos.AiLogDtos
 {
     public class ResultAiLogDto : BaseDto
     {
-        public string Prompt { get; set; } = string.Empty;
-        public string Response { get; set; } = string.Empty;
-        public string? SourceModel { get; set; }
-        public bool IsSuccessful { get; set; }
-        public string? ErrorMessage { get; set; }
+        public Guid Id { get; set; }                     
+        public string Prompt { get; set; }     
+        public string Response { get; set; } 
+        public string? SourceModel { get; set; }               
+        public bool IsSuccessful { get; set; }                 
+        public string? ErrorMessage { get; set; }              
 
-        public Guid? NewsId { get; set; }
-        public string? NewsTitle { get; set; } // İsteğe bağlı
+        public DateTime CreatedTime { get; set; }              
+        public DateTime? UpdatedTime { get; set; }
     }
 }

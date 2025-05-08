@@ -21,6 +21,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Persistence
@@ -47,6 +48,13 @@ namespace Persistence
                 };
             });
 
+            services.AddControllers()
+            .AddJsonOptions(opt =>
+            {
+                opt.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+                opt.JsonSerializerOptions.WriteIndented = true;
+            });
+
             services.AddScoped<IReadNewsRepository, ReadNewsRepository>();
             services.AddScoped<IWriteNewsRepository, WriteNewsRepository>();
 
@@ -57,11 +65,14 @@ namespace Persistence
             services.AddScoped<IWriteTagRepository, WriteTagRepository>();
 
             services.AddScoped<IAppUserRepository, AppUserRepository>();
+            services.AddScoped<IReadAppUserRepository, ReadAppUserRepository>();
             services.AddScoped<IAppRoleRepository, AppRoleRepository>();
 
-            services.AddHttpClient<IAIService, OpenRouterAiRepository>();
-            services.AddScoped<IAiLogRepository, AiLogRepository>();
+            
+            services.AddScoped<IReadAiLogRepository, AiLogReadRepository>();
+            services.AddScoped<IWriteAiLogRepository, AiLogWriteRepository>();
 
+            services.AddHttpClient<IAIService, OpenRouterAiRepository>();
 
 
 

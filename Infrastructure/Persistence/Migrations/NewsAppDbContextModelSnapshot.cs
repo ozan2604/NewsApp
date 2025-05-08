@@ -22,6 +22,36 @@ namespace Persistence.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("AiLogCategory", b =>
+                {
+                    b.Property<Guid>("AiLogsListId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("CategoriesId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("AiLogsListId", "CategoriesId");
+
+                    b.HasIndex("CategoriesId");
+
+                    b.ToTable("AiLogCategory");
+                });
+
+            modelBuilder.Entity("AiLogTag", b =>
+                {
+                    b.Property<Guid>("AiLogsId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("TagsId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("AiLogsId", "TagsId");
+
+                    b.HasIndex("TagsId");
+
+                    b.ToTable("AiLogTag");
+                });
+
             modelBuilder.Entity("CategoryNews", b =>
                 {
                     b.Property<Guid>("CategoriresId")
@@ -43,10 +73,17 @@ namespace Persistence.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid?>("AuthorId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<DateTime>("CreatedTime")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("ErrorMessage")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsSuccessful")
@@ -59,6 +96,9 @@ namespace Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("PublishedAt")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Response")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -66,10 +106,16 @@ namespace Persistence.Migrations
                     b.Property<string>("SourceModel")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("UpdatedTime")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AuthorId");
 
                     b.HasIndex("NewsId");
 
@@ -248,6 +294,36 @@ namespace Persistence.Migrations
                     b.ToTable("NewsTag");
                 });
 
+            modelBuilder.Entity("AiLogCategory", b =>
+                {
+                    b.HasOne("Domain.Entities.AiLog", null)
+                        .WithMany()
+                        .HasForeignKey("AiLogsListId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.Category", null)
+                        .WithMany()
+                        .HasForeignKey("CategoriesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("AiLogTag", b =>
+                {
+                    b.HasOne("Domain.Entities.AiLog", null)
+                        .WithMany()
+                        .HasForeignKey("AiLogsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.Tag", null)
+                        .WithMany()
+                        .HasForeignKey("TagsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("CategoryNews", b =>
                 {
                     b.HasOne("Domain.Entities.Category", null)
@@ -265,10 +341,16 @@ namespace Persistence.Migrations
 
             modelBuilder.Entity("Domain.Entities.AiLog", b =>
                 {
+                    b.HasOne("Domain.Entities.AppUser", "Author")
+                        .WithMany()
+                        .HasForeignKey("AuthorId");
+
                     b.HasOne("Domain.Entities.News", "News")
                         .WithMany("AiLogs")
                         .HasForeignKey("NewsId")
                         .OnDelete(DeleteBehavior.SetNull);
+
+                    b.Navigation("Author");
 
                     b.Navigation("News");
                 });

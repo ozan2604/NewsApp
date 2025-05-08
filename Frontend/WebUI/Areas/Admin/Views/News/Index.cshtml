@@ -1,5 +1,4 @@
-﻿
-@model List<DtoLayer.Dtos.NewsDtos.ResultNewsDto>
+﻿@model List<DtoLayer.Dtos.NewsDtos.ResultNewsDto>
 
 @{
     ViewData["Title"] = "Haber Listesi";
@@ -18,36 +17,70 @@
         <thead class="table-dark">
             <tr>
                 <th>#</th>
+                <th>Görsel</th>
                 <th>Başlık</th>
+                <th>İçerik</th>
+                <th>Resim</th>
+                <th>Yapay Zeka</th>
                 <th>Yayın Tarihi</th>
-                <th>Yazar</th>
-                <th>AI?</th>
+                <th>Eklenme Tarihi</th>
+                <th>Güncellenme Tarihi</th>
+                <th>Etiketler</th>
                 <th>İşlemler</th>
             </tr>
-        </thead> 
+        </thead>
         <tbody>
             @foreach (var item in Model)
             {
                 count++;
                 <tr>
                     <td>@count</td>
+
+                    <td>
+                        <img src="@(!string.IsNullOrEmpty(item.ImageUrl) ? item.ImageUrl : "/images/default.png")"
+                             alt="Haber Görseli"
+                             class="img-thumbnail"
+                             style="width: 60px; height: 60px; object-fit: cover;" />
+                    </td>
+
                     <td>@item.Title</td>
+
+                    <td>
+                        <span title="@item.Content">
+                            @(item.Content?.Length > 100 ? item.Content.Substring(0, 100) + "..." : item.Content)
+                        </span>
+                    </td>
+
+                    <td>@item.ImageUrl</td>
+
+                    <td>@item.AiSource</td>
+
                     <td>@item.PublishedAt.ToShortDateString()</td>
-                    <td>@item.AuthorName</td>
-                    <td>@(item.IsAIGenerated ? "AI" : "Manuel")</td>
-                    <td class="text-nowrap">
-                        <a href="/Admin/News/Edit/@item.Id" class="btn btn-warning btn-sm">Güncelle</a>
-                    
+                    <td>@item.CreatedTime.ToShortDateString()</td>
+                    <td>@item.UpdatedTime.ToShortDateString()</td>
 
                     
+
+                    <td>
+                        @if (item.TagNames != null && item.TagNames.Any())
+                        {
+                            @string.Join(", ", item.TagNames.OrderBy(n => n))
+                        }
+                        else
+                        {
+                            <span class="text-muted">Yok</span>
+                        }
+                    </td>
+
+                    <td class="text-nowrap">
+                        <a href="/Admin/News/Edit/@item.Id" class="btn btn-warning btn-sm">Güncelle</a>
                         <form action="/Admin/News/Delete/@item.Id"
                               method="post"
                               class="d-inline"
                               onsubmit="return confirm('Silmek istediğinize emin misiniz?');">
-                            <button type="submit" class="btn btn-danger">Sil</button>
+                            <button type="submit" class="btn btn-danger btn-sm">Sil</button>
                         </form>
                     </td>
-                   
                 </tr>
             }
         </tbody>

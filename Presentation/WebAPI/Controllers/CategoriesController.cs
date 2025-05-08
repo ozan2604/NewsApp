@@ -11,6 +11,7 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
     public class CategoriesController : ControllerBase
     {
         private readonly IMediator _mediator;

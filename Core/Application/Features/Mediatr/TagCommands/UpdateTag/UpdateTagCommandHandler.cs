@@ -25,10 +25,6 @@ namespace Application.Features.Mediatr.TagCommands.UpdateTag
             Tag tag = await _readTagRepository.GetByIdAsync(request.Id);
             tag.Name = request.Name;
             tag.UpdatedTime = DateTime.UtcNow;
-            tag.CreatedTime = DateTime.UtcNow;
-
-
-
 
             await _writeTagRepository.SaveAsync();
             return new UpdateTagCommandResponse()

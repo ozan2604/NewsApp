@@ -9,6 +9,6 @@ namespace Application.Features.Mediatr.CategoryQueries.GetAllCategory
 {
     public class GetAllCategoryQueryRequest : IRequest<GetAllCategoryQueryResponse>
     {
-        // şimdilik parametre yok, hepsi gelsin
+        
     }
 }

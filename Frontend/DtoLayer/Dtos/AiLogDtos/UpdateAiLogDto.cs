@@ -7,14 +7,16 @@ using System.Threading.Tasks;
 
 namespace DtoLayer.Dtos.AiLogDtos
 {
-    public class UpdateAiLogDto : BaseDto
+    public class UpdateAiLogDto
     {
-        
-        public string Prompt { get; set; } = string.Empty;
-        public string Response { get; set; } = string.Empty;
+
+        public Guid Id { get; set; }
+        public string Prompt { get; set; }
+        public string Response { get; set; }
         public string? SourceModel { get; set; }
-        public bool IsSuccessful { get; set; } = true;
+        public bool? IsSuccessful { get; set; }
         public string? ErrorMessage { get; set; }
-        public Guid? NewsId { get; set; }
+        public DateTime? UpdatedTime { get; set; }
+
     }
 }

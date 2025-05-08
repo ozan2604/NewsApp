@@ -1,5 +1,6 @@
 ﻿using Domain.Entities;
 using DtoLayer.Dtos.TagDtos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
@@ -10,6 +11,7 @@ namespace WebUI.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Route("Admin/Tag")]
+    [Authorize(Roles = "Admin,Author")]
     public class TagController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;

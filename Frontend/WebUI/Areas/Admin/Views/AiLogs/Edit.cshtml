@@ -1,0 +1,52 @@
+﻿@model DtoLayer.Dtos.AiLogDtos.UpdateAiLogDto
+
+@{
+    ViewData["Title"] = "AI Log Güncelle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<section class="content container-fluid mt-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            
+            <h3 class="mb-4">AiLogs Güncelle</h3>
+
+            <form action="/Admin/AiLogs/Edit/@Model.Id" method="post">
+                <input type="hidden" name="Id" value="@Model.Id" />
+
+                <div class="form-group mb-3">
+                    <label for="Name">Prompt</label>
+                    <input type="text" class="form-control" id="Prompt" name="Prompt" value="@Model.Prompt" required />
+                </div>
+                <div class="form-group mb-3">
+                    <label for="Name">Yanıt</label>
+                    <input type="text" class="form-control" id="Response" name="Response" value="@Model.Response" required />
+                </div>
+                <div class="form-group mb-3">
+                    <label for="Name">Yapay Zeka Kaynağı</label>
+                    <input type="text" class="form-control" id="SourceModel" name="SourceModel" value="@Model.SourceModel" required />
+                </div>
+                <div class="form-group mb-3">
+                    <label for="Name">Başarılı mı?</label>
+                    <input type="text" class="form-control" id="IsSuccessful" name="IsSuccessful" value="@Model.IsSuccessful"/>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="Name">Hata Mesajı</label>
+                    <input type="text" class="form-control" id="ErrorMessage" name="ErrorMessage" value="@Model.ErrorMessage"/>
+                </div>
+
+
+
+                <button type="submit" class="btn btn-warning">
+                    <i class="bi bi-pencil-square"></i> Güncelle
+                </button>
+                <a href="/Admin/AiLogs/Index" class="btn btn-secondary">Geri Dön</a>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+

@@ -6,6 +6,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient();
 
+builder.Services.AddAuthentication("Cookies")
+    .AddCookie("Cookies", opt =>
+    {
+        opt.LoginPath = "/User/Auth/Login";
+        opt.AccessDeniedPath = "/User/Auth/AccessDenied";
+    });
+
 
 var app = builder.Build();
 
@@ -26,7 +33,8 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{area=User}/{controller=Auth}/{action=Login}/{id?}"
+    );
 
 app.UseEndpoints(endpoints =>
 {

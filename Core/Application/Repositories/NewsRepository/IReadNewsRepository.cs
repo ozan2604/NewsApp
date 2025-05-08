@@ -9,5 +9,6 @@ namespace Application.Repositories.NewsRepository
 {
     public interface IReadNewsRepository : IReadRepository<News>
     {
+        Task<List<News>> GetNewsByTagAsync(string tagName);
     }
 }

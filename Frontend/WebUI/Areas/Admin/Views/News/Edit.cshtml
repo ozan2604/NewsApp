@@ -1,47 +1,150 @@
-﻿
-@model DtoLayer.Dtos.NewsDtos.UpdateNewsDto
+﻿@model DtoLayer.Dtos.NewsDtos.UpdateNewsDto
 
 @{
-    ViewData["Title"] = "Haberi Güncelle";
+    ViewData["Title"] = "Haber Güncelle";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<section class="container mt-4">
-    <h3 class="mb-4">Haberi Güncelle</h3>
+<section class="content container-fluid mt-4">
+    <div class="row">
+        <div class="col-md-10 offset-md-1">
+            <h3 class="mb-4">Haber Güncelle</h3>
 
-    <form action="/Admin/News/Edit/@Model.Id" method="post">
-        <input type="hidden" name="Id" value="@Model.Id" />
+            <form asp-area="Admin" asp-controller="News" asp-action="Edit" method="post">
+                <input type="hidden" name="Id" value="@Model.Id" />
 
-        <div class="mb-3">
-            <label>Başlık</label>
-            <input name="Title" class="form-control" value="@Model.Title" />
-        </div>
-        <div class="mb-3">
-            <label>İçerik</label>
-            <textarea name="Content" class="form-control">@Model.Content</textarea>
-        </div>
-        <div class="mb-3">
-            <label>Yayın Tarihi</label>
-            <input name="PublishedAt" class="form-control" type="datetime-local" value="@Model.PublishedAt.ToString("yyyy-MM-ddTHH:mm")" />
-        </div>
-        <div class="mb-3">
-            <label>Görsel URL</label>
-            <input name="ImageUrl" class="form-control" value="@Model.ImageUrl" />
-        </div>
-        <div class="mb-3">
-            <label>AI Kaynağı</label>
-            <input name="AiSource" class="form-control" value="@Model.AiSource" />
-        </div>
-        <div class="form-check mb-3">
-            <input name="IsAIGenerated" class="form-check-input" type="checkbox" @(Model.IsAIGenerated ? "checked" : "") />
-            <label class="form-check-label">Yapay Zeka ile oluşturuldu</label>
-        </div>
-        <div class="mb-3">
-            <label>Yazar ID</label>
-            <input name="AuthorId" class="form-control" value="@Model.AuthorId" />
-        </div>
+                <div class="form-group mb-3">
+                    <label>Başlık</label>
+                    <input type="text" name="Title" class="form-control" value="@Model.Title" />
+                </div>
 
-        <button type="submit" class="btn btn-warning">Güncelle</button>
-        <a href="/Admin/News/Index" class="btn btn-secondary">İptal</a>
-    </form>
+                <div class="form-group mb-3">
+                    <label>İçerik</label>
+                    <textarea name="Content" class="form-control">@Model.Content</textarea>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label>Yayın Tarihi</label>
+                    <input type="datetime-local" name="PublishedAt" class="form-control" value="@Model.PublishedAt.ToString("yyyy-MM-ddTHH:mm")" />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label>Görsel URL</label>
+                    <input type="text" name="ImageUrl" class="form-control" value="@Model.ImageUrl" />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label>AI Kaynağı</label>
+                    <input type="text" name="AiSource" class="form-control" value="@Model.AiSource" />
+                </div>
+
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn btn-warning me-2">
+                        Güncelle
+                    </button>
+                    <a href="/Admin/News" class="btn btn-secondary">Geri Dön</a>
+                </div>
+            </form>
+
+            <h5 class="text-primary mt-5">Etiketler</h5>
+            <div class="list-group mb-5">
+                @foreach (var tag in Model.AllTags)
+                {
+                    var parts = tag.Split('|');
+                    var tagId = parts[0];
+                    var tagName = parts[1];
+                    bool isSelected = Model.SelectedTagIds.Contains(Guid.Parse(tagId));
+
+                    <div class="list-group-item d-flex justify-content-between align-items-center">
+                        <span>@tagName</span>
+                        <button type="button"
+                                class="btn btn-sm @(isSelected ? "btn-danger" : "btn-success")"
+                                onclick="@(isSelected ? $"removeTagFromNews('{Model.Id}', '{tagId}')" : $"addTagToNews('{Model.Id}', '{tagId}')")">
+                            @(isSelected ? "Sil" : "Ekle")
+                        </button>
+                    </div>
+                }
+            </div>
+
+            <h5 class="text-primary">Kategoriler</h5>
+            <div class="list-group">
+                @foreach (var category in Model.AllCategories)
+                {
+                    var parts = category.Split('|');
+                    var catId = parts[0];
+                    var catName = parts[1];
+                    bool isSelected = Model.SelectedCategoryIds.Contains(Guid.Parse(catId));
+
+                    <div class="list-group-item d-flex justify-content-between align-items-center">
+                        <span>@catName</span>
+                        <button type="button"
+                                class="btn btn-sm @(isSelected ? "btn-danger" : "btn-success")"
+                                onclick="@(isSelected ? $"removeCategoryFromNews('{Model.Id}', '{catId}')" : $"addCategoryToNews('{Model.Id}', '{catId}')")">
+                            @(isSelected ? "Sil" : "Ekle")
+                        </button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
 </section>
+
+@section Scripts {
+    <script>
+        function addTagToNews(newsId, tagId) {
+            fetch(`https://localhost:7012/api/News/AddTagToNews`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: `newsId=${newsId}&tagId=${tagId}`
+            }).then(response => {
+                if (response.ok) {
+                    location.reload();
+                } else {
+                    alert('Etiket eklenemedi.');
+                }
+            });
+        }
+
+        function removeTagFromNews(newsId, tagId) {
+            fetch(`https://localhost:7012/api/News/RemoveTagFromNews`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: `newsId=${newsId}&tagId=${tagId}`
+            }).then(response => {
+                if (response.ok) {
+                    location.reload();
+                } else {
+                    alert('Etiket silinemedi.');
+                }
+            });
+        }
+
+        function addCategoryToNews(newsId, categoryId) {
+            fetch(`https://localhost:7012/api/News/AddCategoryToNews`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: `newsId=${newsId}&categoryId=${categoryId}`
+            }).then(response => {
+                if (response.ok) {
+                    location.reload();
+                } else {
+                    alert('Kategori eklenemedi.');
+                }
+            });
+        }
+
+        function removeCategoryFromNews(newsId, categoryId) {
+            fetch(`https://localhost:7012/api/News/RemoveCategoryFromNews`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: `newsId=${newsId}&categoryId=${categoryId}`
+            }).then(response => {
+                if (response.ok) {
+                    location.reload();
+                } else {
+                    alert('Kategori silinemedi.');
+                }
+            });
+        }
+    </script>
+}

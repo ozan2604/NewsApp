@@ -1,12 +1,15 @@
 ﻿using DtoLayer.Dtos.CategoryDtos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Text;
 
 namespace WebUI.Areas.Admin.Controllers
 {
+   
     [Area("Admin")]
-    [Route("Admin/Category")] 
+    [Route("Admin/Category")]
+    [Authorize(Roles = "Admin,Author")]
     public class CategoryController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;

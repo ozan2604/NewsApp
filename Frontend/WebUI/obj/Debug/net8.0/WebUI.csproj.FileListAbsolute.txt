@@ -1,3 +1,7 @@
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\WebAPI.deps.json
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\WebAPI.runtimeconfig.json
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\WebAPI.staticwebassets.endpoints.json
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\WebAPI.exe
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\appsettings.json
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\WebUI.staticwebassets.runtime.json
@@ -60,6 +64,7 @@ C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Mic
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -80,6 +85,9 @@ C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\NuG
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\NuGet.ProjectModel.dll
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\NuGet.Protocol.dll
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\NuGet.Versioning.dll
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
@@ -254,8 +262,12 @@ C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\run
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Application.dll
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Domain.dll
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\DtoLayer.dll
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Persistence.dll
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\WebAPI.dll
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Persistence.pdb
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\WebAPI.pdb
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\DtoLayer.pdb
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Application.pdb
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Domain.pdb
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\obj\Debug\net8.0\WebUI.csproj.AssemblyReference.cache
@@ -287,15 +299,3 @@ C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\obj\Debug\net8.0\Web
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\obj\Debug\net8.0\WebUI.genruntimeconfig.cache
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\obj\Debug\net8.0\ref\WebUI.dll
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\obj\Debug\net8.0\WebUI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\WebAPI.deps.json
-C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\WebAPI.runtimeconfig.json
-C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\WebAPI.staticwebassets.endpoints.json
-C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\WebAPI.exe
-C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\WebAPI.dll
-C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\WebAPI.pdb
-C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\DtoLayer.dll
-C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Frontend\WebUI\bin\Debug\net8.0\DtoLayer.pdb

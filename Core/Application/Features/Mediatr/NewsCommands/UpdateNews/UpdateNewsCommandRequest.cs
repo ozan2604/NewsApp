@@ -16,8 +16,10 @@ namespace Application.Features.Mediatr.NewsCommands.UpdateNews
         public string Content { get; set; }
         public string ImageUrl { get; set; }
         public string? AiSource { get; set; }
-        public bool  IsAIGenerated { get; set; }
-        public Guid? AuthorId { get; set; }
+        
+        public List<Guid> SelectedTagIds { get; set; } = new();
+        public List<Guid> SelectedCategoryIds { get; set; } = new();
+        
         public DateTime CreatedDate { get; set; }
         public DateTime UpdatedDate { get; set; }
 

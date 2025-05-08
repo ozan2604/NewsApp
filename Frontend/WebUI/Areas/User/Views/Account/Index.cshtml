@@ -1,0 +1,122 @@
+﻿@model DtoLayer.Dtos.AuthDtos.UserInfoDto
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hesap Bilgileriniz</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+                <div class="card shadow-lg border-0 rounded-4 overflow-hidden">
+
+                    <div class="card-header bg-primary text-white text-center py-4">
+                        <h2 class="mb-0">
+                            <i class="bi bi-person-circle me-2"></i> Hesap Bilgileriniz
+                        </h2>
+                    </div>
+
+                    <div class="card-body p-5">
+
+                        <div class="row mb-3 align-items-center border-bottom pb-2">
+                            <div class="col-4 text-muted fw-semibold">👤 Kullanıcı Adı</div>
+                            <div class="col-8 fw-bold">@Model.Username</div>
+                        </div>
+
+                        <div class="row mb-3 align-items-center border-bottom pb-2">
+                            <div class="col-4 text-muted fw-semibold">🧑‍💼 Ad</div>
+                            <div class="col-8 fw-bold">@Model.Name</div>
+                        </div>
+
+                        <div class="row mb-3 align-items-center border-bottom pb-2">
+                            <div class="col-4 text-muted fw-semibold">🧑‍💼 Soyad</div>
+                            <div class="col-8 fw-bold">@Model.Surname</div>
+                        </div>
+
+                        <div class="row mb-3 align-items-center border-bottom pb-2">
+                            <div class="col-4 text-muted fw-semibold">📧 Email</div>
+                            <div class="col-8 fw-bold">@Model.Email</div>
+                        </div>
+
+                        <div class="row mb-3 align-items-center border-bottom pb-2">
+                            <div class="col-4 text-muted fw-semibold">🔑 Rol</div>
+                            <div class="col-8 fw-bold">@Model.RoleName</div>
+                        </div>
+
+                        <div class="row mb-4 align-items-center">
+                            <div class="col-4 text-muted fw-semibold">📅 Oluşturulma Tarihi</div>
+                            <div class="col-8 fw-bold">@Model.CreatedTime.ToString("dd.MM.yyyy")</div>
+                        </div>
+
+                        <div class="row mb-4 align-items-center">
+                            <div class="col-4 text-muted fw-semibold">📅 Güncellenme Tarihi</div>
+                            <div class="col-8 fw-bold">@Model.UpdatedTime.ToString("dd.MM.yyyy")</div>
+                        </div>
+
+                        <div class="text-center d-flex justify-content-center gap-3 flex-wrap">
+
+                            <!-- Bilgileri Güncelle -->
+                            <a href="/User/Account/Edit/@Model.Id" class="btn btn-outline-primary btn-lg rounded-pill px-4">
+                                <i class="bi bi-pencil-square me-2"></i> Bilgileri Güncelle
+                            </a>
+
+                            <!-- Admin Ol -->
+                            <form action="/User/Account/BecomeAdmin" method="post" class="d-inline">
+                                <button type="submit" class="btn btn-outline-success btn-lg rounded-pill px-4">
+                                    <i class="bi bi-person-badge me-2"></i> Admin Ol!
+                                </button>
+                            </form>
+
+                            <!-- Hesabımı Sil -->
+                            <button type="button" class="btn btn-outline-danger btn-lg rounded-pill px-5" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal">
+                                <i class="bi bi-trash me-2"></i> Hesabımı Sil
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 🌟 Hesabı Silme Onay Modali 🌟 -->
+    <div class="modal fade" id="deleteConfirmModal" tabindex="-1" aria-labelledby="deleteConfirmModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteConfirmModalLabel">Hesabı Sil</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
+                </div>
+
+                <div class="modal-body">
+                    Hesabınızı silmek istediğinize emin misiniz? Bu işlem geri alınamaz.
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Vazgeç</button>
+
+                    <form action="/User/Account/DeleteAccount" method="post" class="d-inline">
+                        <button type="submit" class="btn btn-danger">
+                            Evet, Sil
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

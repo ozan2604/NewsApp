@@ -9,7 +9,7 @@ namespace Application.Features.Mediatr.NewsCommands.RemoveNews
 {
     public class RemoveNewsCommandRequest : IRequest<RemoveNewsCommandResponse>
     {
-        public String Id { get; set; }
+        public string Id { get; set; }
     }
     
 }

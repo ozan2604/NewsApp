@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "WebAPI.Controllers.AiLogsController",
+    "Method": "GetAll",
+    "RelativePath": "api/AiLogs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.AiLogsController",
     "Method": "Create",
     "RelativePath": "api/AiLogs",
     "HttpMethod": "POST",
@@ -9,7 +19,103 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "Application.Features.Mediatr.AiLogCommands.CreateAiLogCommands.CreateAilogCommandRequest",
+        "Type": "Application.Features.Mediatr.AiLogsCommands.CreateAiLogsCommand.CreateAilogsCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.AiLogsController",
+    "Method": "Update",
+    "RelativePath": "api/AiLogs",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.Features.Mediatr.AiLogsCommands.UpdateAiLogsCommand.UpdateAiLogsCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.AiLogsController",
+    "Method": "GetById",
+    "RelativePath": "api/AiLogs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.AiLogsController",
+    "Method": "Delete",
+    "RelativePath": "api/AiLogs/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.AppUsersController",
+    "Method": "Update",
+    "RelativePath": "api/AppUsers",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.Features.Mediatr.AppUserCommands.UpdateAppUser.UpdateAppUserCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.AppUsersController",
+    "Method": "GetById",
+    "RelativePath": "api/AppUsers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.AppUsersController",
+    "Method": "Delete",
+    "RelativePath": "api/AppUsers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],
@@ -107,18 +213,12 @@
   },
   {
     "ContainingType": "WebAPI.Controllers.NewsController",
-    "Method": "GetAllNews",
+    "Method": "GetAll",
     "RelativePath": "api/News",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "onlyAI",
-        "Type": "System.Boolean",
-        "IsRequired": false
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -186,6 +286,64 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebAPI.Controllers.NewsController",
+    "Method": "AddTagToNews",
+    "RelativePath": "api/News/AddTagToNews",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newsId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "tagId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.NewsController",
+    "Method": "GetByTag",
+    "RelativePath": "api/News/ByTag",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tag",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.NewsController",
+    "Method": "RemoveTagFromNews",
+    "RelativePath": "api/News/RemoveTagFromNews",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newsId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "tagId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebAPI.Controllers.RegisterController",
     "Method": "CreateUser",
     "RelativePath": "api/Register",
@@ -194,7 +352,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "command",
+        "Name": "request",
         "Type": "Application.Features.Mediatr.AppUserCommands.CreateAppUser.CreateAppUserCommandRequest",
         "IsRequired": true
       }

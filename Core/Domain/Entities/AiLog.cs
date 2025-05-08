@@ -9,14 +9,26 @@ namespace Domain.Entities
 {
     public class AiLog : BaseEntity
     {
-        public string Prompt { get; set; } = string.Empty; // AI'a ne sorduk
-        public string Response { get; set; } = string.Empty; // AI'dan ne döndü
+        public string Prompt { get; set; }
+        public string Response { get; set; }
 
-        public string? SourceModel { get; set; } // Örn: GPT-4, Gemini, Claude
+        public string? SourceModel { get; set; }
         public bool IsSuccessful { get; set; } = true;
-        public string? ErrorMessage { get; set; } 
+        public string? ErrorMessage { get; set; }
 
         
+        public string Title { get; set; } = string.Empty;
+        public string ImageUrl { get; set; } = string.Empty;
+        public DateTime PublishedAt { get; set; } = DateTime.Now;
+
+        public Guid? AuthorId { get; set; }
+        public AppUser? Author { get; set; }
+
+        public ICollection<Category> Categories { get; set; } = new List<Category>();
+        public ICollection<Tag> Tags { get; set; } = new List<Tag>();
+
+
+        //şuanlık senaryo dışı
         public Guid? NewsId { get; set; }
         public News? News { get; set; }
     }

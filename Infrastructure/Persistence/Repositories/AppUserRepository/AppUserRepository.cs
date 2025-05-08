@@ -1,4 +1,5 @@
-﻿using Application.Repositories.AppUserRepository;
+﻿using Application.Repositories;
+using Application.Repositories.AppUserRepository;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Persistence.Context;
@@ -21,11 +22,14 @@ namespace Persistence.Repositories.AppUserRepository
 
         public DbSet<AppUser> Table => _context.Set<AppUser>();
 
+        
+
         public async Task<AppUser> GetByFilterAsync(Expression<Func<AppUser, bool>> filter)
         {
             return await _context.Set<AppUser>().FirstOrDefaultAsync(filter);
         }
 
+        
     }
     
 }

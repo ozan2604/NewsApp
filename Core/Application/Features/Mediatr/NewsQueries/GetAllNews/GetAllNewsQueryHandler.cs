@@ -1,35 +1,37 @@
-﻿using Application.Repositories.NewsRepository;
+﻿using Application.Features.Mediatr.NewsQueries.GetAllNews;
+using Application.Features.Mediatr.TagQueries.GetAllTag;
+using Application.Repositories.NewsRepository;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Application.Features.Mediatr.NewsQueries.GetAllNews
+public class GetAllNewsQueryHandler : IRequestHandler<GetAllNewsQueryRequest, List<GetAllNewsQueryResponse>>
 {
-    public class GetAllNewsQueryHandler : IRequestHandler<GetAllNewsQueryRequest, GetAllNewsQueryResponse>
+    private readonly IReadNewsRepository _readNewsRepository;
+
+    public GetAllNewsQueryHandler(IReadNewsRepository readNewsRepository)
     {
-        private readonly IReadNewsRepository _readNewsRepository;
+        _readNewsRepository = readNewsRepository;
+    }
 
-        public GetAllNewsQueryHandler(IReadNewsRepository readNewsRepository)
+    public async Task<List<GetAllNewsQueryResponse>> Handle(GetAllNewsQueryRequest request, CancellationToken cancellationToken)
+    {
+        var newsList = await _readNewsRepository.GetAll(false)
+            .Include(n => n.Tags)
+            .Include(n => n.Categorires)
+            .ToListAsync(cancellationToken);
+
+        return newsList.Select(news => new GetAllNewsQueryResponse
         {
-            _readNewsRepository = readNewsRepository;
-        }
-
-        public async Task<GetAllNewsQueryResponse> Handle(GetAllNewsQueryRequest request, CancellationToken cancellationToken)
-        {
-            var query =  _readNewsRepository.GetAll(false);
-            if (request.OnlyAIGenerated == true)
-                query = query.Where(x => x.IsAIGenerated);
-
-            var result = await query.ToListAsync(cancellationToken);
-
-            return new GetAllNewsQueryResponse()
-            {
-                NewsList = result
-            };
-        }
+            Id = news.Id,
+            Title = news.Title,
+            Content = news.Content,
+            ImageUrl = news.ImageUrl,
+            AiSource = news.AiSource,
+            PublishedAt = news.PublishedAt,
+            CreatedTime = news.CreatedTime,
+            UpdatedTime = news.UpdatedTime,
+            TagNames = news.Tags.Select(t => t.Name).ToList(),
+            CategoryNames = news.Categorires.Select(c => c.Name).ToList()
+        }).ToList();
     }
 }

@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\wwwroot\\images\\default.jpeg",
+      "PackagePath": "staticwebassets\\images\\default.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\wwwroot\\images\\default.png",
+      "PackagePath": "staticwebassets\\images\\default.png"
+    },
+    {
+      "Id": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\wwwroot\\images\\deprem.jpeg",
+      "PackagePath": "staticwebassets\\images\\deprem.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\wwwroot\\images\\yapayzeka.jpeg",
+      "PackagePath": "staticwebassets\\images\\yapayzeka.jpeg"
+    },
+    {
       "Id": "C:\\Users\\Ozan\\Desktop\\AspNetProjects\\NewsApp\\Frontend\\WebUI\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

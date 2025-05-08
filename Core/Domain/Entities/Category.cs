@@ -14,7 +14,8 @@ namespace Domain.Entities
         public Guid? ParentCategoryId { get; set; }
         public Category? ParentCategory { get; set; }
 
-        public ICollection<Category> SubCategories { get; set; } = new List<Category>();    
+        public ICollection<Category> SubCategories { get; set; } = new List<Category>();
+        public ICollection<AiLog> AiLogsList { get; set; } = new List<AiLog>();
         public ICollection<News> NewsList { get; set; } = new List<News>();
 
         //kendi içinde alt kategorilere sahip olabiliyor

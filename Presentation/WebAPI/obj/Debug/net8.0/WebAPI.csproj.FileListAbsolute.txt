@@ -167,7 +167,6 @@ C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Presentation\WebAPI\obj\Debug\net8.
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Presentation\WebAPI\obj\Debug\net8.0\WebAPI.AssemblyInfoInputs.cache
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Presentation\WebAPI\obj\Debug\net8.0\WebAPI.AssemblyInfo.cs
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Presentation\WebAPI\obj\Debug\net8.0\WebAPI.csproj.CoreCompileInputs.cache
-C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Presentation\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Presentation\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Presentation\WebAPI\obj\Debug\net8.0\WebAPI.sourcelink.json
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Presentation\WebAPI\obj\Debug\net8.0\scopedcss\bundle\WebAPI.styles.css
@@ -187,3 +186,4 @@ C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Presentation\WebAPI\obj\Debug\net8.
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Presentation\WebAPI\obj\Debug\net8.0\WebAPI.pdb
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Presentation\WebAPI\obj\Debug\net8.0\WebAPI.genruntimeconfig.cache
 C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Presentation\WebAPI\obj\Debug\net8.0\ref\WebAPI.dll
+C:\Users\Ozan\Desktop\AspNetProjects\NewsApp\Presentation\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs

@@ -13,6 +13,7 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
     public class TagsController : ControllerBase
     {
         private readonly IMediator _mediator;

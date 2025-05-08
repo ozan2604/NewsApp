@@ -1,0 +1,147 @@
+﻿@using DtoLayer.Dtos.AiLogDtos
+@model List<ResultAiLogDto>
+
+@{
+    ViewData["Title"] = "AiLogs";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int count = 0;
+
+}
+
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+
+                <div class="bs-example" data-example-id="simple-table">
+                    <table class="table">
+                        @*    <caption>
+                            Tablo Başlığı
+                        </caption> *@
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Prompt</th>
+                                <th>Response</th>
+                                <th>Model</th>
+                                <th>Başarılı mı</th>
+                                <th>Hatalı mı</th>
+                                <th>Oluşturulma tarihi</th>
+                                <th>Güncellenme tarihi</th>
+                                <th>Sil</th>
+                                <th>Güncelle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                count++;
+                                <tr>
+                                    <th scope="row">@count</th>
+                                    <td>@item.Prompt</td>
+                                    <td>@item.Response</td>
+                                    <td>@item.SourceModel</td>
+                                    <td>@item.IsSuccessful</td>
+                                    <td>@item.ErrorMessage</td>
+                                    
+                                    <td>@item.CreatedTime</td>
+                                    <td>@item.UpdatedTime</td>
+                                    <td>
+                                        <form action="/Admin/AiLogs/Delete/@item.Id"
+                                              method="post"
+                                              class="d-inline"
+                                              onsubmit="return confirm('Silmek istediğinize emin misiniz?');">
+                                            <button type="submit" class="btn btn-danger">Sil</button>
+                                        </form>
+                                    </td>
+                                    <td><a href="/Admin/AiLogs/Edit/@item.Id" method="post" class="btn btn-success">Güncelle</a></td>
+
+                                </tr>
+
+                            }
+
+                        </tbody>
+                    </table>
+                    <a href="/Admin/AiLogs/Create/" class="btn btn-primary">Yeni Haber Girişi</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+@* @using DtoLayer.Dtos.AiLogDtos
+@model List<ResultAiLogDto>
+
+@{
+    ViewData["Title"] = "AiLogs";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int count = 0;
+
+}
+
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+
+                <div class="bs-example" data-example-id="simple-table">
+                    <table class="table">
+                            <caption>
+                            Tablo Başlığı
+                        </caption> 
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Prompt</th>
+                                <th>Response</th>
+                                <th>Model</th>
+                                <th>Başarılı mı</th>
+                                <th>Hatalı mı</th>
+                                <th>NewsId</th>
+                                <th>Oluşturulma tarihi</th>
+                                <th>Güncellenme tarihi</th>
+                                <th>Sil</th>
+                                <th>Güncelle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                count++;
+                                <tr>
+                                    <th scope="row">@count</th>
+                                    <td>@item.Prompt</td>
+                                    <td>@item.Response</td>
+                                    <td>@item.SourceModel</td>
+                                    <td>@item.IsSuccessful</td>
+                                    <td>@item.ErrorMessage</td>
+                                    <td>@item.NewsId</td>
+                                    <td>@item.CreatedTime</td>
+                                    <td>@item.UpdatedTime</td>
+                                    <td>
+                                        <form action="/Admin/AiLogs/Delete/@item.Id"
+                                              method="post"
+                                              class="d-inline"
+                                              onsubmit="return confirm('Silmek istediğinize emin misiniz?');">
+                                            <button type="submit" class="btn btn-danger">Sil</button>
+                                        </form>
+                                    </td>
+                                    <td><a href="/Admin/AiLogs/Edit/@item.Id" method="post" class="btn btn-success">Güncelle</a></td>
+
+                                </tr>
+
+                            }
+
+                        </tbody>
+                    </table>
+                    <a href="/Admin/AiLogs/Create/" class="btn btn-primary">Yeni Kategori Girişi</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+ *@

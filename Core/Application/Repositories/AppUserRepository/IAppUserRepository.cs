@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 
 namespace Application.Repositories.AppUserRepository
 {
-    public interface IAppUserRepository : IWriteRepository<AppUser>
+    public interface IAppUserRepository : IWriteRepository<AppUser> 
     {
         Task<AppUser> GetByFilterAsync(Expression<Func<AppUser, bool>> filter);
+     
     }
 }

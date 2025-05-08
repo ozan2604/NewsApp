@@ -28,16 +28,16 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Ozan/Desktop/AspNetProjects/NewsApp/Frontend/WebUI/Areas/Admin/Views/AiLog/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWlMb2dcQ3JlYXRlLmNzaHRtbA==
+[C:/Users/Ozan/Desktop/AspNetProjects/NewsApp/Frontend/WebUI/Areas/Admin/Views/AiLogs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWlMb2dzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ozan/Desktop/AspNetProjects/NewsApp/Frontend/WebUI/Areas/Admin/Views/AiLog/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWlMb2dcRWRpdC5jc2h0bWw=
+[C:/Users/Ozan/Desktop/AspNetProjects/NewsApp/Frontend/WebUI/Areas/Admin/Views/AiLogs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWlMb2dzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ozan/Desktop/AspNetProjects/NewsApp/Frontend/WebUI/Areas/Admin/Views/AiLog/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWlMb2dcSW5kZXguY3NodG1s
+[C:/Users/Ozan/Desktop/AspNetProjects/NewsApp/Frontend/WebUI/Areas/Admin/Views/AiLogs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWlMb2dzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Ozan/Desktop/AspNetProjects/NewsApp/Frontend/WebUI/Areas/Admin/Views/Category/Create.cshtml]
@@ -74,6 +74,30 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Ozan/Desktop/AspNetProjects/NewsApp/Frontend/WebUI/Areas/Admin/Views/Tag/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ozan/Desktop/AspNetProjects/NewsApp/Frontend/WebUI/Areas/User/Views/Account/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xBY2NvdW50XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ozan/Desktop/AspNetProjects/NewsApp/Frontend/WebUI/Areas/User/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xBY2NvdW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ozan/Desktop/AspNetProjects/NewsApp/Frontend/WebUI/Areas/User/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xBdXRoXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ozan/Desktop/AspNetProjects/NewsApp/Frontend/WebUI/Areas/User/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xBdXRoXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ozan/Desktop/AspNetProjects/NewsApp/Frontend/WebUI/Areas/User/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ozan/Desktop/AspNetProjects/NewsApp/Frontend/WebUI/Areas/User/Views/Shared/_UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xTaGFyZWRcX1VzZXJMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Ozan/Desktop/AspNetProjects/NewsApp/Frontend/WebUI/Views/Home/Index.cshtml]
